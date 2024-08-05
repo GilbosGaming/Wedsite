@@ -1,0 +1,167 @@
+html {
+    height: auto;
+    width: 100%;
+    background-color: rgb(250, 207, 214);
+    overflow-x: hidden;
+    
+}
+
+body {
+    font-family: Georgia, Times, serif;
+    color: #367;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgba(244, 190, 199, 0.784);
+    padding: 1rem 0;
+    height:85px;
+}
+
+.flowers {
+    height: 150px;
+    width: 120%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%; 
+}
+
+nav li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 17.5%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    margin-left: 10vw;
+    padding: 0;
+    
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover .overlay-text {
+    color: #333
+}
+
+#cupid {
+    height: 75px;
+    margin-left: 47.5vw;
+    position: absolute;
+    top: 105%;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#countdown {
+    font-size: 3.5rem;
+    margin-top: 4rem;
+    color: #ab3e3e;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+#proposal {
+    height: 60vh;
+    position: relative;
+    left: 25vw;
+    margin-top: 2rem;
+}
+
+.first {
+    position: relative;
+    left: 5vw;
+    width: 55vw;
+    top: -50vh;
+}
+
+.first h1, .first h2, .first p {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.imageScroller {
+    
+    height: 20vh;
+    width: 60vw;
+    margin-left: 17.5vw;
+    margin-top: -10px;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    cursor: e-resize;
+    user-select: none;
+    align-items: center;
+    padding: 0 40px;
+    transition: transform 1s;
+    scroll-behavior: smooth;    
+}
+
+.imageScroller .image {
+    height: 115px;
+    max-height: 80%;
+    width: auto;
+    flex-shrink: 0;
+    margin-right: 30px;
+    object-fit: cover;
+    object-position: right center;
+    transition: transform 1s ease-in-out; 
+    scroll-behavior: smooth;
+   }
+
+   .imageScroller img:hover {
+    transform: scale(1.2); 
+}
+
+.imageScroller::before,
+.imageScroller::after {
+    content: '';
+    display: block;
+    width: 60px; 
+    flex-shrink: 0; 
+}
+
+.imageWrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: max-content;
+}
+
+#us {
+    text-align: left;
+}
