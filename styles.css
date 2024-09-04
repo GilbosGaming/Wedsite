@@ -65,12 +65,14 @@ header {
 
 .flowers {
     height: 170px;
-    width: 120%;
+    width: 180%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     top: -15px;
+    left: -35%;
+    
 }
 
 .overlay-text {
@@ -87,6 +89,8 @@ header {
 
 #titleText {
     font-family: 'Alex Brush', cursive;
+    font-size: 50px;
+    
 }
 
 .nav-item {
@@ -133,7 +137,7 @@ nav a:hover .overlay-text {
 
 #cupid {
     height: 75px;
-    margin-left: 45vw;
+    margin-left: 27vw;
     position: relative;
     top: -40vh;
     
@@ -147,39 +151,37 @@ section {
 #countdown {
     font-size: 3.5rem;
     margin-top: 4rem;
-    color: #ba5c1d;
+    color: #68c8e8;
     font-family: 'Franklin Gothic Medium', sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 #proposal {
-    height: 600px;
+    height: 110vh;
     position: relative;
     left: 28vw;
+    top: -5vh;
     margin-top: 2rem;
-    border: 5px solid #fcb2a9;
+    border: 7px solid #e86d5c;
     border-radius: 5px;
-    box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.6), 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: inset 0 0 15px rgba(19, 18, 18, 0.897), 0 4px 8px rgba(0, 0, 0, 0.2); 
     z-index: 1;                 
 }
 
 .proposalSubtext {
     position: relative;
     margin-left: 55vw;
+    top: -7vh;
 }
 
 .first {
     position: relative;
-    left: 5vw;
-    width: 55vw;
-    top: -70vh;
+    left: 0vw;
+    width: 56vw;
+    top: -105vh;
     z-index: 10;
     color: rgb(222, 212, 212);
     mix-blend-mode: difference;
-}
-
-#titleText {
-    font-size: 40px;
 }
 
 .first h1, .first h2, .first p {
@@ -250,6 +252,10 @@ section {
 
 #gallery {
     height: 500px;
+}
+
+#home {
+    height: 130vh;
 }
 
 section.imgsec {
